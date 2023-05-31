@@ -1,0 +1,23 @@
+[
+  {
+    "predicate": "All",
+    "conditions": [
+      {
+        "fieldName": "From",
+        "predicate": "Contains",
+        "value": "xobin.com"
+      },
+      {
+        "fieldName": "Subject",
+        "predicate": "Contains",
+        "value": "Reminder"
+      },
+      {
+        "fieldName": "Received Date",
+        "predicate": "Less than",
+        "value": "15"
+      }
+    ],
+    "actions": ["Mark as read"]
+  }
+]
